@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --white: #fff;
+  --coral: #ff8585;
+  --off-black: #323b42;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*
+  ELEMENT STYLING
+*/
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--off-black);
+  font-family: sans-serif;
+}
+.off-white {
+  background: #faf8f5;
+}
+h1 {
+  margin: 0 1rem;
+  font-size: 2.75rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 3.75rem;
+  color: var(--off-black);
+}
+h2 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 2.75rem;
+  color: var(--off-black);
+}
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  line-height: 33px;
+  color: var(--off-black);
+}
+h4 {
+  font-size: 1.125rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--off-black);
+}
+h5 {
+  font-size: 0.875rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--off-black);
+}
+h6 {
+  font-size: 0.764rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ff8585;
+}
+p {
+  font-size: 1rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 0;
+  margin-bottom: 2.5rem;
+  color: var(--off-black);
+}
+a {
+  font-size: 0.8rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #ff8585;
+}
+img {
+  width: 100%;
+  height: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/*
+  COLUMN STYLING
+*/
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0;
+  padding: 1rem 2.5rem;
+  width: 100%;
+}
+.col-1-of-2 {
+  display: inline;
+  margin: 0;
+  padding: 1rem;
+  width: 50%;
+}
+.col-2-of-2 {
+  display: inline;
+  margin: 0;
+  padding: 1rem;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 950px) {
+  .row {
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
+  .col-1-of-2, .col-2-of-2{
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
   }
 }

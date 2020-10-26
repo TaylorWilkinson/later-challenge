@@ -1,0 +1,30 @@
+.hero-container {
+  margin: 0;
+  padding: 2.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  object-fit: contain;
+  background-color: var(--white);
+}
+
+/* .hero-container > h1 {
+  color: #323b42;
+} */
+
+/* .hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: sans-serif;
+} */
+
+
+@media screen and (max-width: 960px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}

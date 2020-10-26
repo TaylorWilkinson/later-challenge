@@ -1,0 +1,45 @@
+.button:hover {
+  color: #ffffff;
+  background-color: #ff8585;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  color: var(--coral);
+  background-color: transparent;
+  border: 1px solid var(--coral);
+  border-radius: 25px;
+  transition: color 1s ease, background-color 1s ease;
+  cursor: pointer;
+}
+
+.btn--primary {
+  color: var(--coral);
+  background-color: transparent;
+  border: 1px solid var(--coral);
+}
+
+.btn--primary:hover {
+  color: var(--white);
+  background-color: var(--coral);
+}
+
+.btn--secondary {
+  background-color: transparent;
+  color: var(--coral);
+  padding: 8px 20px;
+  border: 1px solid #000;
+  transition: all 0.3s ease-out;
+}
+.btn--secondary:hover {
+  background-color: #000;
+  color: var(--white);
+}
+
+.btn--medium {
+  font-size: 0.9rem;
+}
+
+.btn--large {
+  font-size: 1rem;
+}
