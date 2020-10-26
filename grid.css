@@ -2,12 +2,13 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 1rem;
-  grid-auto-rows: minmax(1rem, auto);
+  grid-auto-rows: minmax(0, auto);
 }
 
 .full-col {
   grid-column: 1 / span 12;
   text-align: center;
+  padding: 0 3rem;
 }
 
 .col-1-of-2 {
@@ -34,12 +35,12 @@
   grid-auto-rows: max-content;
   grid-gap: 1rem;
 }
-.grid-1-of-3 {
+.card-1-of-3 {
   grid-column: 1 / span 1;
 }
-.grid-2-of-3 {
+.card-2-of-3 {
   grid-column: 2 / span 1;
 }
-.grid-3-of-3 {
+.card-3-of-3 {
   grid-column: 3 / span 1;
 }
