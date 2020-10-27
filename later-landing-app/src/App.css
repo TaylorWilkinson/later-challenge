@@ -146,6 +146,9 @@ img {
   .row {
     padding: 0rem;
   }
+  section {
+    padding: 2rem;
+  }
   h1 {
     margin: 0;
     font-size: 1.8125rem;

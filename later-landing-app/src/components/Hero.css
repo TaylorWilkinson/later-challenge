@@ -19,9 +19,6 @@ h6 {
 }
 
 @media screen and (max-width: 500px) {
-  .hero-container {
-    padding: 1rem;
-  }
   h1 {
     margin: 0;
   }

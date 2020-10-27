@@ -99,6 +99,6 @@ p {
 
 @media screen and (max-width: 500px) {
   .cards {
-    padding: 1rem;
+    padding: 2rem;
   }
 }
