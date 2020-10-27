@@ -9,7 +9,8 @@ Taylor Wilkinson (www.taylorwilkinson.ca)
 2. run `npm start` in the terminal to run the app in Development mode
 3. open [http://localhost:3000] to view the landing page in the browser
 
-### 🔧 Built With
+
+#### 🔧 Built With
 * React.js (using create-react-app)
 * CSS3
 * HTML5
@@ -27,4 +28,4 @@ Taylor Wilkinson (www.taylorwilkinson.ca)
   * When building the component, used the 'position' property for the parent container ('cards__item') and the child <div> ('cards__item__info'). This current solution works, however I believe it could be refactored and improved to find a more efficient solution that requires fewer media queries to change the height of the card.
   * Noted: on the current Later.com landing page, these cards are broken between 1100px>800px with overlapping customer information and text.
 
-#### 🙋‍♀️ Have a nice day!
+### 🙋‍♀️ Have a nice day!
