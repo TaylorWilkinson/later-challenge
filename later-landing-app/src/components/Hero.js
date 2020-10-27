@@ -5,7 +5,7 @@ import { Button } from './Button';
 
 function Hero() {
   return (
-    <div className='hero-container'>
+    <section className='hero-container'>
       <div class="row">
         <h1>A social media marketing platform that actually helps you grow</h1>
       </div>
@@ -24,8 +24,8 @@ function Hero() {
           </div>
         </div>
       </div>
-    </div>
-    )
+    </section>
+  )
 }
 
 export default Hero;

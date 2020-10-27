@@ -9,22 +9,20 @@
   background-color: var(--white);
 }
 
-/* .hero-container > h1 {
-  color: #323b42;
-} */
-
-/* .hero-container > p {
-  margin-top: 8px;
-  color: #fff;
-  font-size: 32px;
-  font-family: sans-serif;
-} */
-
-
-@media screen and (max-width: 960px) {
-
+h1 {
+  text-align: center;
+  margin: 0 5rem 2.5rem 5rem;
 }
 
-@media screen and (max-width: 768px) {
+h6 {
+  text-align: left;
+}
 
+@media screen and (max-width: 500px) {
+  .hero-container {
+    padding: 1rem;
+  }
+  h1 {
+    margin: 0;
+  }
 }

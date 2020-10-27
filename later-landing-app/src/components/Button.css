@@ -9,14 +9,17 @@
   background-color: transparent;
   border: 1px solid var(--coral);
   border-radius: 25px;
-  transition: color 1s ease, background-color 1s ease;
+  transition: color 0.5s ease-out, background-color 0.5s ease-out;
   cursor: pointer;
 }
 
 .btn--primary {
+  font-weight: 500;
   color: var(--coral);
   background-color: transparent;
   border: 1px solid var(--coral);
+  transition: color 0.5s ease-out, background-color 0.5s ease-out;
+  cursor: pointer;
 }
 
 .btn--primary:hover {
@@ -24,22 +27,6 @@
   background-color: var(--coral);
 }
 
-.btn--secondary {
-  background-color: transparent;
-  color: var(--coral);
-  padding: 8px 20px;
-  border: 1px solid #000;
-  transition: all 0.3s ease-out;
-}
-.btn--secondary:hover {
-  background-color: #000;
-  color: var(--white);
-}
-
 .btn--medium {
-  font-size: 0.9rem;
-}
-
-.btn--large {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }

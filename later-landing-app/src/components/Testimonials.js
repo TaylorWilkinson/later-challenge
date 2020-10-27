@@ -5,9 +5,13 @@ import CardItem from './CardItem';
 
 function Testimonials() {
   return (
-    <div className='cards off-white'>
-      <h6>WHAT OUR CUSTOMERS SAY</h6>
+    <>
+    <div className='div-row'>
+      <img className="div-image" src='images/square.svg'/>
+    </div>
+    <section className='cards alternate-bg'>
       <div className='cards__container'>
+      <h6>WHAT OUR CUSTOMERS SAY</h6>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
@@ -34,7 +38,8 @@ function Testimonials() {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
+    </>
   )
 }
 

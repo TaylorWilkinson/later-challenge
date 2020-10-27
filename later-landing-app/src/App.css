@@ -1,28 +1,33 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Rubik', sans-serif;
-}
-
+/*
+  :ROOT COLOURS
+*/
 :root {
   --white: #fff;
   --coral: #ff8585;
+  --off-white: #faf8f5;
   --off-black: #323b42;
 }
 
 /*
   ELEMENT STYLING
 */
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
 body {
   margin: 0;
   background: #ffffff;
   color: var(--off-black);
-  font-family: sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
-.off-white {
-  background: #faf8f5;
+section {
+  padding: 1rem 5rem;
+}
+.alternate-bg {
+  background: var(--off-white);
 }
 h1 {
   margin: 0 1rem;
@@ -67,7 +72,7 @@ h6 {
   font-weight: 500;
   line-height: 21px;
   text-transform: uppercase;
-  color: #ff8585;
+  color: var(--coral);
 }
 p {
   font-size: 1rem;
@@ -82,10 +87,17 @@ a {
   font-size: 0.8rem;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
-  color: #ff8585;
+  color: var(--coral);
 }
 img {
   width: 100%;
+  height: auto;
+}
+.div-image {
+  position: absolute;
+  top: -2.5rem;
+  right: 5rem;
+  width: 5rem;
   height: auto;
 }
 
@@ -96,7 +108,7 @@ img {
 .row {
   display: flex;
   margin: 0;
-  padding: 1rem 2.5rem;
+  padding: 0 2.5rem;
   width: 100%;
 }
 .col-1-of-2 {
@@ -111,7 +123,14 @@ img {
   padding: 1rem;
   width: 50%;
 }
+.div-row {
+  position: relative;
+  height: 0;
+}
 
+/*
+  MEDIA QUERIES FOR RESPONSIVENESS
+*/
 @media screen and (max-width: 950px) {
   .row {
     display: block;
@@ -120,5 +139,47 @@ img {
     display: inline-block;
     width: 100%;
     padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .row {
+    padding: 0rem;
+  }
+  h1 {
+    margin: 0;
+    font-size: 1.8125rem;
+    line-height: 36px;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 31px;
+  }
+  h3 {
+    font-size: 1.18rem;
+    line-height: 29px;
+  }
+  h4 {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  h5 {
+    font-size: 0.875rem;
+    line-height: 14px;
+  }
+  h6 {
+    font-size: 0.812rem;
+    line-height: 21px;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 21px;
+  }
+  .div-image {
+    position: absolute;
+    top: -1.5rem;
+    right: 1rem;
+    width: 4rem;
+    height: auto;
   }
 }
