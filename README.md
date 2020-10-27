@@ -9,17 +9,17 @@ Taylor Wilkinson (www.taylorwilkinson.ca)
 2. run `npm start` in the terminal to run the app in Development mode
 3. open [http://localhost:3000] to view the landing page in the browser
 
+#### 🔧 Built With
+* React.js (using create-react-app)
+* CSS3
+* HTML5
+
 #### 📝 Process
 1. Scaffolded a basic version of the landing page using vanilla HTML and CSS
 2. Using pencil and paper, sketched a low-fidelity UI layout for mobile, as the provided screenshot seems to works best for desktop
 3. Created a React app with the "create-react-app" npm command
 4. Created the landing page and components for the hero, buttons, testimonial section, and testimonial cards.
 5. Ensured responsiveness by adding @media queries in CSS
-
-#### 🔧 Built With
-* React.js (using create-react-app)
-* CSS3
-* HTML5
 
 #### 🤔 Reflections
 * Testimonials cards
