@@ -1,0 +1,28 @@
+.hero-container {
+  margin: 0;
+  padding: 2.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  object-fit: contain;
+  background-color: var(--white);
+}
+
+h1 {
+  text-align: center;
+  margin: 0 5rem 2.5rem 5rem;
+}
+
+h6 {
+  text-align: left;
+}
+
+@media screen and (max-width: 500px) {
+  .hero-container {
+    padding: 1rem;
+  }
+  h1 {
+    margin: 0;
+  }
+}

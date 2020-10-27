@@ -1,0 +1,32 @@
+.button:hover {
+  color: #ffffff;
+  background-color: #ff8585;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  color: var(--coral);
+  background-color: transparent;
+  border: 1px solid var(--coral);
+  border-radius: 25px;
+  transition: color 0.5s ease-out, background-color 0.5s ease-out;
+  cursor: pointer;
+}
+
+.btn--primary {
+  font-weight: 500;
+  color: var(--coral);
+  background-color: transparent;
+  border: 1px solid var(--coral);
+  transition: color 0.5s ease-out, background-color 0.5s ease-out;
+  cursor: pointer;
+}
+
+.btn--primary:hover {
+  color: var(--white);
+  background-color: var(--coral);
+}
+
+.btn--medium {
+  font-size: 0.8rem;
+}

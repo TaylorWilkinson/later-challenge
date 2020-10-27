@@ -14,4 +14,4 @@ Taylor Wilkinson (www.taylorwilkinson.ca)
 #### 🔧 Built With:
 * HTML5
 * CSS3
-* React (using create-react-app)
+* React.js
