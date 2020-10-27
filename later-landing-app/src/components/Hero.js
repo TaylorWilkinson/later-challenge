@@ -6,14 +6,14 @@ import { Button } from './Button';
 function Hero() {
   return (
     <section className='hero-container'>
-      <div class="row">
+      <div className="row">
         <h1>A social media marketing platform that actually helps you grow</h1>
       </div>
-      <div class="row">
-        <div class="col-1-of-2">
+      <div className="row">
+        <div className="col-1-of-2">
           <img src="./images/Hp--visual--planner-f0bab8b1.png" alt='Later Visual Planner mockup'></img>
         </div>
-        <div class="col-2-of-2">
+        <div className="col-2-of-2">
           <h6>Visual Planner</h6>
       		<h2>Plan a month's worth of social media posts in minutes</h2>
       		<p>
