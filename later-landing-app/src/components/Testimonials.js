@@ -7,7 +7,7 @@ function Testimonials() {
   return (
     <>
     <div className='div-row'>
-      <img className="div-image" src='images/square.svg'/>
+      <img className="div-image" alt='' src='images/square.svg'/>
     </div>
     <section className='cards alternate-bg'>
       <div className='cards__container'>

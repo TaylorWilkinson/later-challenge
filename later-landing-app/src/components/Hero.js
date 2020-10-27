@@ -11,7 +11,7 @@ function Hero() {
       </div>
       <div class="row">
         <div class="col-1-of-2">
-          <img src="./images/Hp--visual--planner-f0bab8b1.png"></img>
+          <img src="./images/Hp--visual--planner-f0bab8b1.png" alt='Later Visual Planner mockup'></img>
         </div>
         <div class="col-2-of-2">
           <h6>Visual Planner</h6>
