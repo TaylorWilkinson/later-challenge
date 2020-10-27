@@ -23,5 +23,5 @@ Taylor Wilkinson (www.taylorwilkinson.ca)
 
 #### 🤔 Reflections
 * Testimonials cards
-** In the screenshot these cards are the same height, with the cited person's photo, name, and title all being aligned at the bottom. When building the component, I struggled to ensure that all cards were the same height while also having that row align to the bottom. With further work, I would play with the vertical alignment and find a streamlined solution.
-** Noted: on the current Later.com landing page, these cards are broken between 1100px>800px. Given the forced height, the customer div overlaps the quote above it.
+  * In the screenshot these cards are the same height, with the cited person's photo, name, and title all being aligned at the bottom. When building the component, I struggled to ensure that all cards were the same height while also having that row align to the bottom. With further work, I would play with the vertical alignment and find a streamlined solution.
+  * Noted: on the current Later.com landing page, these cards are broken between 1100px>800px. Given the forced height, the customer div overlaps the quote above it.
