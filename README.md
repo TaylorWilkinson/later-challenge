@@ -4,12 +4,12 @@ My solution to the code challenge provided as part of Later's job application pr
 ## 👩‍💻 Aspiring Applicant
 Taylor Wilkinson (www.taylorwilkinson.ca)
 
-### 🔨 Build Instructions
+## 🔨 Build Instructions
 1. after cloning the repo, use the terminal to cd into the `later-landing-app` folder to access the React app
 2. run `npm start` in the terminal to run the app in Development mode
 3. open [http://localhost:3000] to view the landing page in the browser
 
-#### 🔧 Built With
+### 🔧 Built With
 * React.js (using create-react-app)
 * CSS3
 * HTML5
